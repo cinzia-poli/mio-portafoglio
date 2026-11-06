@@ -1,0 +1,16 @@
+body {
+  background-color:  #a299f3;
+}
+h1 {
+  color:  #000000;
+}
+p {
+  color:  #000000;
+}
+
+.intestazione {
+  background-color: #ffffff;
+  color: #812424;
+  text-align: center;
+  padding: 30px;
+}
