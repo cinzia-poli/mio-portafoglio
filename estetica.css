@@ -1,11 +1,16 @@
 body {
-  background-color:  #a299f3;
+  margin: 0;
+  font-family: 'Times New Roman', Times, serif;
+  background-color: #a299f3;
+  color: beige;
 }
+
 h1 {
-  color:  #000000;
+  color: #000000;
 }
+
 p {
-  color:  #000000;
+  color: #000000;
 }
 
 .intestazione {
@@ -13,4 +18,43 @@ p {
   color: #812424;
   text-align: center;
   padding: 30px;
+}
+
+.intestazione h1 {
+  color: #812424;
+  font-size: 30px;
+  margin: 0 0 10px;
+}
+
+.intestazione p {
+  color: #812424;
+  margin: 0;
+}
+
+.menu {
+  background-color: #812424;
+  text-align: center;
+  padding: 20px;
+}
+
+.menu a {
+  color: beige;
+  margin: 0 20px;
+  font-size: 20px;
+}
+
+.menu a:hover {
+  color: #ffffff;
+}
+
+main {
+  max-width: 700px;
+  margin: 0;
+  padding: 40px 20px;
+}
+
+.evidenza {
+  background-color: #ffffff;
+  border-left: 6px #812424;
+  padding: 15px 20px;
 }
